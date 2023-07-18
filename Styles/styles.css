@@ -58,14 +58,32 @@
 
 /* First Section Styles */
 .bg-container img{
-    max-width: 52rem;
-    max-height: auto;
+    max-width: 60rem;
+    max-height: 100%;
     display: block;
+    margin-right: 65px;
 }
 .bg{
     position: absolute;
+    padding: .1rem 14rem;
+}
+.bg h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+.bg h2{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .gamer{
+    background: #FFF;
     display: flex;
 }
 .gamer .bg ul{
@@ -88,6 +106,19 @@
     font-size: 20px;
     font-weight: 500;
 }
+.btn .btn1 , .btn2{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #FF42A5;
+    padding: 20px 25px;
+    border-radius: 48px;
+    border: none;
+}
+.btn .btn2{
+    background-color: #4EC5F7;
+    margin-left: 2px;
+}
 
 
 
@@ -101,6 +132,14 @@
     .navigate > ul{
         flex-direction: column;
     }
+    .gamer{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .bg-container{
+        width: 100%;
+    }
+
     
 }
 
