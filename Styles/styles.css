@@ -2,6 +2,8 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Navbar Styles */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -40,7 +42,6 @@
 }
 .navigate > ul > li{
     list-style: none;
-    color: #3C354F;
     font-size: 18px;
     font-weight: 500;
 }
@@ -52,7 +53,15 @@
 }
 .navigate > ul > li > a{
     text-decoration: none;
+    color: #3C354F;
 }
+
+/* First Section Styles */
+
+
+
+
+
 
 /* Media for Small Devices */
 @media screen and (max-width: 576px) {
@@ -64,3 +73,5 @@
     }
     
 }
+
+/* Media for Medium Devices */
