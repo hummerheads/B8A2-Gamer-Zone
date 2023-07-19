@@ -191,8 +191,8 @@ footer .upperlinks ul{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .footer-icons img{
     width: 2rem;
@@ -213,7 +213,59 @@ footer .lowelinks ul li a{
     font-size: 16px;
     font-weight: 500;
 }
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+}
+/* online games related styles */
+.online-games .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 240px;
+    padding: 50px;
+}
+.online-games .cards .card1, .card2, .card3, .card4{
+    margin: 1px 1px;
+    text-align: left;
+} 
+.online-games .cards img{
+    width: 17rem;
+    height: 23rem;
+}
+.online-games .cards p{
+    width: 342px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.online-games .cards .card3{
+    margin-bottom: 25px;
+}
+.online-games h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-games .col{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-games p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 
+}
 
 
 
@@ -236,7 +288,10 @@ footer .lowelinks ul li a{
     .sec2{
         flex-direction: column-reverse;
     }
-
+    footer{
+        max-width: 100%;
+        flex-direction: column;
+    }
     
 }
 
