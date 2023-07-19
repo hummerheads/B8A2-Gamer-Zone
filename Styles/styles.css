@@ -162,7 +162,57 @@
 .sec2 .bg .btn{
     text-align: right;
 }
-
+/* Footer related style */
+footer .watermark{
+    justify-content: center;
+}
+footer .watermark .wm-title{
+    color: #FFF;
+}
+footer{
+    background-color: #0B0223;
+}
+footer .upperlinks ul li a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer .upperlinks ul li{
+    list-style: none;
+}
+footer .upperlinks ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.footer-icons img{
+    width: 2rem;
+    height: 2rem;
+}
+footer .lowelinks ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+footer .lowelinks ul li{
+    list-style: none;
+}
+footer .lowelinks ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 
 
@@ -182,12 +232,9 @@
     .gamer .bg-image{
         
     }
-    .bg-container{
-        width: 100%;
-    }
+  
     .sec2{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
     }
 
     
