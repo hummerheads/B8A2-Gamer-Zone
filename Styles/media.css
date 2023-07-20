@@ -20,12 +20,20 @@
     .gamer .bg-container img{
         width: 100%;
         height: auto;
-        margin: 1rem 5rem;
+        margin: 1rem 1rem;
         margin-bottom: 10rem;
     }
     .sec2{
         margin-bottom: 35rem;
         padding: 0;
+    }
+    .sec2 .container .bg{
+        padding: 1px;
+        width: 100%;
+        margin: 1px;
+    }
+    .sec2 .container .bg p{
+        width: 100%;
     }
     .sec2 .bg-container .bg, .gamer .bg-container .bg{
         padding: .1rem;
@@ -46,7 +54,7 @@
     }
     .gamer .bg-img img{
         max-width: 100%;
-        margin: 1rem 5rem;
+        margin: 1rem .1rem;
     }
     .play-instant .txt p{
         padding: 0;
@@ -70,8 +78,8 @@
     }
     .play-instant .pic .pic2{
         width: 50%;
-        top: 6rem;
-        left: -2.5rem;
+        top: 22rem;
+        left: -2.7rem;
     }
     .buttons .categories{
         display: grid;
@@ -82,6 +90,7 @@
         width: 9rem;
         font-size: small;
     }
+
     .buttons .categories .category img{
         width: 75%;
     }
