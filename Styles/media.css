@@ -1,12 +1,33 @@
 /* Media for Small Devices */
 @media screen and (max-width: 576px) {
 
-    .navbar ,.navigate ul, .sec2, .online-games{
+    .navbar ,.navigate ul, .play-instant, .career, .sec2, .online-games, .cards{
         flex-direction: column;
     }
     .gamer{
         flex-direction: column-reverse;
     }
+    .sec2{
+        margin-bottom: 35rem;
+        padding: 0;
+    }
+    .card1, .card2, .card3, .card4{
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .play-instant .txt, .career{
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+    .play-instant .pic, .career img, .sec2 .bg-img img, .gamer .bg-img {
+        width: 100%;
+    }
+    .career .txt .list{
+        font-size: 9px;
+    }
+
+
 
 
 
