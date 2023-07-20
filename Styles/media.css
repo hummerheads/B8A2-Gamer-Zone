@@ -4,12 +4,32 @@
     .navbar ,.navigate ul, .play-instant, .career, .sec2, .online-games, .cards{
         flex-direction: column;
     }
+
     .gamer{
         flex-direction: column-reverse;
+        width: 100%;
     }
+    .gamer .bg-container .bg h2{
+        font-size: 2.5rem;
+    }
+    .gamer .bg-container .bg h3{
+        font-size: 2rem;
+    }
+    .gamer .bg-container .bg p{
+        font-size: .8rem;
+    }
+    .gamer .bg-container img{
+        width: 150%;
+        height: 150%;
+        margin-bottom: 2rem;
+    }
+
     .sec2{
         margin-bottom: 35rem;
         padding: 0;
+    }
+    .sec2 .bg-container .bg{
+        padding: .1rem;
     }
     .card1, .card2, .card3, .card4{
         margin: 10px;
@@ -20,12 +40,60 @@
         margin: 10px;
         margin-bottom: 20px;
     }
-    .play-instant .pic, .career img, .sec2 .bg-img img, .gamer .bg-img {
+    .career img, .sec2 .bg-img img, .gamer .bg-img {
         width: 100%;
+    }
+    .play-instant .txt p{
+        padding: 0;
+        line-height: 2rem;
     }
     .career .txt .list{
         font-size: 9px;
     }
+    .sec2 .bg-container{
+        padding: .1rem;
+        text-align: center;
+    }
+
+    .play-instant .txt h3{
+        font-size: 30px;
+    }
+    .play-instant .pic .pic1{
+        width: 100%;
+    }
+    .play-instant .pic .pic2{
+        width: 50%;
+        top: 6rem;
+        left: -2.5rem;
+    }
+
+
+
+    .buttons .categories{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .buttons .categories .category{
+        padding: 1px;
+        width: 9rem;
+        font-size: small;
+    }
+    .buttons .categories .category img{
+        width: 75%;
+    }
+    footer .upperlinks ul{
+        flex-wrap: wrap;
+    }
+    .footer-icons {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 1rem 4rem;
+    }
+    .copyright{
+        width: 50%;
+    }
+
+    
 
 
 

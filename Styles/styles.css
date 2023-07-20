@@ -163,8 +163,8 @@
     text-align: right;
 }
 
-
 /* Footer related style */
+
 footer .watermark{
     justify-content: center;
 }
@@ -223,6 +223,7 @@ footer .lowelinks ul li a{
     padding-top: 1rem;
     padding-bottom: 7rem;
 }
+
 /* online games related styles */
 .online-games .cards{
     display: flex;
@@ -319,7 +320,6 @@ footer .lowelinks ul li a{
     padding: 10px 270px;
     margin-right: 150px;
     margin-top: 100px;
-
 }
 
 /* career */
@@ -364,14 +364,14 @@ footer .lowelinks ul li a{
 }
 /* buttons */
 .buttons{
-    padding: 120px;
+    padding: 10rem;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    gap: 50px;
+    gap: 5rem;
 }
 .categories{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1.5rem;
     flex-wrap: wrap;
     max-width: 150rem;
 }
