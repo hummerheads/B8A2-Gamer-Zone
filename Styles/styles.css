@@ -297,8 +297,7 @@ footer .lowelinks ul li a{
 .play-instant{
     max-width: 100%;
     display: flex;
-    margin-bottom: 10rem;
-    margin-left: 14rem;
+    margin: 10rem 3rem;
     margin-right: 10rem;
 }
 .play-instant .pic{
